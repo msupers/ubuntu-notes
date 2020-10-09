@@ -24,7 +24,8 @@ export LANG=zh_CN
 ## 常用软件安装
 
 ```bash
-sudo apt install openssh-server screenfetch screenkey vim zsh git -y
+sudo apt install openssh-server screenfetch screenkey vim zsh git \
+suckless-tools libx11-dev libxft-dev libxinerama-dev gcc make -y
 ```
 
 ## 关闭sudo密码
