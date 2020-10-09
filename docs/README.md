@@ -9,3 +9,4 @@
 ## ubuntu20.04常用软件和配置
 
 [ubuntu常用软件和配置](ubuntu20.04/init.md)
+[ubuntu按照dwm](ubuntu20.04/dwn.md)
