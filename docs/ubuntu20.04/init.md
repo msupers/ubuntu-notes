@@ -20,16 +20,17 @@ export LANG=en_US
 xdg-user-dirs-gtk-update
 export LANG=zh_CN
 ```
-## 关闭sudo密码
-
->这一行 %sudo ALL=(ALL:ALL) ALL <br> 改为 %sudo ALL=(ALL:ALL) NOPASSWD:ALL
-
-```bash
-sudo visudo
-```
 
 ## 常用软件安装
 
 ```bash
 sudo apt install openssh-server screenfetch screenkey vim zsh git -y
+```
+
+## 关闭sudo密码
+
+>这一行 %sudo ALL=(ALL:ALL) ALL <br> 改为 %sudo ALL=(ALL:ALL) NOPASSWD:ALL
+
+```bash
+sudo vim /etc/sudoers
 ```
